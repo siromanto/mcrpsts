@@ -5,12 +5,13 @@ gem 'rails', '3.2.22'
 
 group :development, :test do
   gem 'sqlite3'
-  # gem 'quiet_assets'
   gem 'rspec-rails',             '~> 2.0'
+  gem 'quiet_assets'
+  gem 'pry',                     '~> 0.9.12.2'
+  gem 'better_errors'
+  gem 'annotate'
+
   # gem 'guard-rspec',             '1.2.1'
-  # gem 'pry',                     '~> 0.9.12.2'
-  # gem "better_errors"
-  # gem 'annotate'
   # gem 'guard-spork',             '1.2.0'
   # gem 'spork',                   '0.9.2'
   gem 'rubocop',                 '~> 0.49.1', require: false
