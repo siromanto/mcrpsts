@@ -13,6 +13,7 @@ group :development, :test do
   # gem 'annotate'
   # gem 'guard-spork',             '1.2.0'
   # gem 'spork',                   '0.9.2'
+  gem 'rubocop',                 '~> 0.49.1', require: false
 end
 
 # Gems used only for assets and not required
